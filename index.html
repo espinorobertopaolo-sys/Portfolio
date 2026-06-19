@@ -3,147 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Junior Web Developer Portfolio</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #1f1f1f;
-      color: white;
-      padding: 25px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-size: 14px;
-    }
-
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    h2 {
-      border-left: 5px solid #1f1f1f;
-      padding-left: 10px;
-      margin-bottom: 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      margin-bottom: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-
-    .skills span {
-      display: inline-block;
-      background: #1f1f1f;
-      color: white;
-      padding: 6px 10px;
-      margin: 5px;
-      border-radius: 5px;
-      font-size: 13px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #1f1f1f;
-      color: white;
-      margin-top: 40px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 8px 12px;
-      background: #1f1f1f;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-  </style>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <h1>Roberto Paolo M. Espino</h1>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <h1>Roberto Paolo Espino</h1>
+  <p>Computer Science Graduate | Aspiring IT Support / Developer / Data Encoder</p>
 </header>
 
-<section id="about">
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="container">
   <h2>About Me</h2>
+  <p>
+    I am a Computer Science graduate with experience in web development, Android development, and embedded systems. 
+    I also have strong interest and foundational skills in IT Support and Data Entry, including troubleshooting basic system issues, assisting users with technical concerns, and managing accurate and organized data records. 
+    I am passionate about solving problems, providing technical assistance, and building useful applications that improve efficiency and user experience.
+  </p>
+</section>
+
+<section id="education" class="container">
+  <h2>Education</h2>
   <div class="card">
-    <p>
-      I am an aspiring Junior Web Developer passionate about creating responsive
-      and user-friendly websites. I enjoy learning new technologies and improving
-      my skills in web development.
-    </p>
+    <h3>Bachelor of Science in Computer Science</h3>
+    <p>Aklan State University – Ibajay Campus</p>
+    <p>2022 - 2026</p>
   </div>
 </section>
 
-<section id="skills">
+<section id="skills" class="container">
   <h2>Skills</h2>
-  <div class="card skills">
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>Responsive Design</span>
-    <span>WordPress</span>
-    <span>GitHub</span>
+  <div class="card">
+    <p>HTML, CSS, JavaScript</p>
+    <p>Kotlin (Android Development)</p>
+    <p>Microsoft Office (Word, Excel, PowerPoint)</p>
+    <p>Data Entry & Documentation</p>
+    <p>Basic Networking</p>
   </div>
 </section>
 
-<section id="projects">
+<section id="projects" class="container">
   <h2>Projects</h2>
 
   <div class="card">
-    <h3>Personal Portfolio Website</h3>
-    <p>Designed and developed a responsive portfolio website using HTML and CSS.</p>
-  </div>
-
-  <div class="card">
-    <h3>Simple E-commerce Website</h3>
-    <p>Created a basic online shopping interface with product listings.</p>
-  </div>
-
-  <div class="card">
     <h3>Smart Vineyard Management System</h3>
-    <p>Led system development as the main programmer and contributed to testing and documentation.</p>
+    <p>IoT-based system using ESP32 and sensors for smart agriculture monitoring.</p>
+  </div>
+
+  <div class="card">
+    <h3>Promotional Android Application</h3>
+    <p>Built using Kotlin and XML for displaying promotional content.</p>
+  </div>
+
+  <div class="card">
+    <h3>Portfolio Website</h3>
+    <p>Responsive website using HTML, CSS, and JavaScript.</p>
   </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="container">
   <h2>Contact</h2>
   <div class="card">
-    <p><strong>Email:</strong> espinorobertopaolo@gmail.com</p>
-    <p><strong>Phone:</strong> +63 995 8150 077</p>
+    <p>Email: espinorobertopaolo@gmail.com</p>
+    <p>Phone: 09958150077</p>
+    <p>Location: Aklan, Philippines</p>
   </div>
 </section>
 
 <footer>
-  <p>© 2026 Junior Web Developer Portfolio</p>
+  <p>© 2026 Roberto Paolo Espino</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
